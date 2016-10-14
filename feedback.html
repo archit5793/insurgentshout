@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="feedstyle.css">
+</head>
+<body>
+  <div class="logo">
+    <div class="container">
+    <a class="logoicon" href="index.html"><img src="img/brand.jpg"></a>
+  </div>
+  </div>
+  <div class="introduction">
+    <div class="conatiner">
+      <div class="row text-center">
+        <h1>Welcome to the support page.</h1>
+        <p>If you are in love with what you see, and want to support the cause. <br>Please fill the support form for your feedback and contact us.</p>
+      </div>
+    </div>
+  </div>
+  <div class="formmodal text-center">
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="modalbutton">
+  Click For Feedback
+</button>
+ <!--form modal start-->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Feedback</h4>
+      </div>
+      <div class="modal-body">
+        
+      <div class="row">
+      <form class="form-inline" role="form" action="sendfeedback.php" method="post" name="feedbackform">
+        <div class="row-md-5 text-center">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+  </div>
+</div>
+<br>
+<br>
+<div class="row-md-5 text-center">
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+  </div>
+  </div>
+  <br>
+  <div class="row-md-5 text-center">
+  <div class="checkbox"> <label for="newsletter"><b>Apply for newsletter.<b></label><input type="checkbox" name="newsletter"></div> 
+</div>
+  <br>
+  <br>
+  <div class="row-md-5 text-center">
+  <div class="form-group">
+    <label for="sections">Which section did you like the most?</label>
+    <select class="form-control" name="sections">
+  <option>Philosophy</option>
+  <option>Fiction</option>
+  <option>Drama</option>
+  <option>Music</option>
+  <option>Comedy</option>
+  <option>Adventure</option>
+  <option>Crime</option>
+  <option>Travel</option>
+</select>
+  </div>
+  </div>
+  <br>
+  <br>
+  <div class="row-md-5 text-center">
+    <div class="form-group">
+      <label for="suggestions">Please provide us with your valuable suggestions.</label>
+      <textarea name="suggestions" class="form-control" rows="5"></textarea>
+    </div>
+  </div>
+  <input class="btn btn-primary" type="submit" value="Submit">
+  </form>
+      </div>
+     <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" value="Send comments">Submit</button>
+      </div>-->
+    </div>
+  </div>
+</div>
+</div>
+  <!--form modal end-->
+  <h2>Contact Info</h2>
+  <br>
+  <div class="contact-info" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="location text-center">
+            <h6>Location</h6>
+            <p>VIT University,Vellore,Tamil Nadu,India</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="email text-center">
+            <h6>Email</h6>
+            <p>admin@insurgentshout.com</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="phone text-center">
+            <h6>Phone</h6>
+            <p>9597380545</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div><!--end contact info-->
+
+
+    <footer>
+    <div class="container">
+      <div class="row">
+          <div class="copyright text-center">
+          <small>&copy;2014 InsurgentShout.All rights reserved.</small>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+ <script src="js/jquery-2.1.0.js"></script>
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

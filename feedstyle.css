@@ -1,0 +1,76 @@
+body{
+background: url(img/feedback.jpg) no-repeat;
+}
+h2{
+	color: #E0E0E0;
+}
+/*logo*/
+.logoicon{
+	width: 179px;
+	height: 32px;
+	padding: 0;
+	margin: 0;
+	text-indent:  -9999px;
+}
+/*end logo*/
+.introduction{
+padding: 60px 0;
+margin-top: 60px;
+}
+.introduction h1{
+	color: #E0E0E0;
+}
+.introduction p{
+	color: #F0F0F0;
+}
+.formmodal{
+	padding: 80px 0;
+	margin-bottom: 50px;
+}
+.formmodal #modalbutton{
+	margin-bottom: 50px;
+}
+/*contact-info*/
+
+.contact-info{
+	background: #2c3e50;
+	padding: 60px 0;
+}
+
+.contact-info h6{
+	color: #95a5a6;
+	margin: 0 0 30px 0;
+}
+
+.contact-info p{
+	color: #fff;
+	font-size: 14px;
+}
+
+.contact-info .location, .contact-info .email{
+	margin-bottom: 30px;
+}
+
+/*end contact-info*/
+
+/*footer*/
+
+footer{
+	margin-top: 50px;
+}
+
+.copyright small{
+	color: #95a5a6;
+	font-size: 13px;
+}
+
+/*end footer*/
+
+@media(min-width: 992px){
+	.contact-info .location, .contact-info .email{margin-bottom: 0;}
+	.copyright{text-align: left;}
+}
+
+@media(min-width: 1200px){
+	.contact-info{padding: 120px 0;}
+}
